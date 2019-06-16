@@ -252,7 +252,7 @@ button:hover {
 
   #modalContent {
     margin: 40% auto;
-    width: 60%;
+    width: 100%;
   }
 
   #modalContent img {
@@ -283,6 +283,10 @@ button:hover {
   .projects {
     display: grid;
     grid-template-columns: auto;
+  }
+
+  .leftSide {
+    height: 95vh;
   }
 
   #modalContent {

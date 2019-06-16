@@ -291,8 +291,8 @@ button:hover {
     grid-template-columns: auto;
   }
 
-  .leftSide {
-    height: 50vh;
+  .leftContent {
+    height: 80vh;
   }
 
   #modalContent {

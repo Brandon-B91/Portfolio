@@ -291,12 +291,8 @@ button:hover {
     grid-template-columns: auto;
   }
 
-  .leftContent {
-    height: calc(100vh - 90px)
-  }
-
   .leftSide {
-    height: 80vh;
+    height: 100vh;
   }
 
   #modalContent {

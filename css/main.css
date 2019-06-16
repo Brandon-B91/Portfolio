@@ -292,7 +292,7 @@ button:hover {
   }
 
   .leftContent {
-    height: 80vh;
+    height: calc(80vh - 70px);
   }
 
   #modalContent {

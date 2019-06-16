@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Mali|Slabo+27px&display=swap');
+
 /* Global */
 
 * {
@@ -25,18 +27,6 @@ button:hover {
   cursor: pointer;
 }
 
-.technologies {
-  text-decoration: underline;
-}
-
-.tech-list {
-  margin-bottom: 15px;
-}
-
-.tech-list li {
-  display: block;
-  font-weight: bold;
-}
 
 /* modal */
 
@@ -106,6 +96,7 @@ button:hover {
 }
 
 .leftSide h1 {
+  font-family: 'Slabo 27px', serif;
   padding-left: 15px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .5em solid transparent; /* The typwriter cursor */
@@ -130,7 +121,8 @@ button:hover {
 }
 
 .leftSide p {
-  margin: 0 25px;
+  font-family: 'Mali', cursive;
+  margin: 5px 25px;
   font-size: 1.2em;
 }
 
@@ -143,6 +135,7 @@ button:hover {
 }
 
 .skills h2 {
+  font-family: 'Slabo 27px', serif;
   text-align: center;
   font-size: 2em;
 }
@@ -156,6 +149,7 @@ button:hover {
 }
 
 .skills li {
+  font-family: 'Mali', cursive;
   font-size: 1.2em;
 }
 
@@ -192,11 +186,13 @@ button:hover {
 }
 
 .rightSide h1 {
+  font-family: 'Slabo 27px', serif;
   margin-top: 50px;
   font-size: 2.5em;
 }
 
 .rightSide p {
+  font-family: 'Mali', cursive;
   margin-left: 25px;
 }
 
@@ -215,6 +211,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .projects img {
@@ -227,6 +224,19 @@ button:hover {
   width: 100px;
   margin: 15px 5px;
   padding: 5px;
+}
+
+.technologies {
+  text-decoration: underline;
+}
+
+.tech-list {
+  margin-bottom: 15px;
+}
+
+.tech-list li {
+  display: block;
+  font-weight: bold;
 }
 
 .rightSide img {

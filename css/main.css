@@ -303,6 +303,7 @@ button:hover {
   #modalContent {
     margin: 10vh auto;
     width: 100vw;
+    height: auto;
   }
 
   #modalContent img {

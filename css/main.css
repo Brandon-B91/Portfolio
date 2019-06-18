@@ -151,7 +151,7 @@ button:hover {
   flex-direction: column;
   flex-wrap: wrap;
   height: 100px;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .skills li {
@@ -312,6 +312,6 @@ button:hover {
   }
 
   .skills {
-    margin-top: 70px; 
+    margin-top: 70px;
   }
 }

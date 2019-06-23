@@ -90,7 +90,7 @@ button:hover {
 }
 
 .leftSide header {
-  margin: 20% auto;
+  margin: 10% auto;
   width: 90%;
   border: 1px solid black;
   background: rgba(255,255,255,0.5);
@@ -182,18 +182,14 @@ button:hover {
   background: lightgray;
   width: 60%;
   margin-left: 40%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.content {
-  width: 90%;
-  margin: 0 auto;
+  overflow-x: hidden;
+  position: absolute;
 }
 
 .rightSide h1 {
   font-family: 'Slabo 27px', serif;
   margin-top: 50px;
+  margin-left: 15px;
   font-size: 2.5em;
 }
 
@@ -203,21 +199,25 @@ button:hover {
 }
 
 .projects {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ .project {
+   margin: 25px 0;
+   flex-basis: 49%;
+   display: flex;
+   flex-direction: column;
+}
+
+.alignbtn {
+  display: flex;
+  justify-content: center;
 }
 
 .projets ul, li {
   display: inline-block;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 25px;
 }
 
 .projects img {
@@ -230,14 +230,21 @@ button:hover {
   width: 100px;
   margin: 15px 5px;
   padding: 5px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 1px 1px 5px;
+  border: 1px solid black;
+  cursor: pointer;
 }
 
 .technologies {
   text-decoration: underline;
+  text-align: center;
 }
 
 .tech-list {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .tech-list li {
@@ -292,8 +299,9 @@ button:hover {
 
 @media only screen and (max-width: 530px) {
   .projects {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
   }
 
   .leftContent {

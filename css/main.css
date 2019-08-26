@@ -309,7 +309,8 @@ blockquote {
   }
 
   .leftContent {
-    height: 90vh;
+    margin: auto;
+    height: 80vh;
     width: 90vw;
   }
 

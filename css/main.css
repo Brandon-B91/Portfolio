@@ -284,13 +284,17 @@ blockquote {
   }
 
   .leftContent {
-    height: 90vh;
-    width: 90vw;
+    height: 100vh;
+    width: 100vw;
   }
 
   .leftSide header {
     margin: 5% auto;
     padding: 0;
+  }
+
+  .leftSide footer {
+    padding: 5% 0 0 0;
   }
 
   .rightSide {
@@ -311,7 +315,7 @@ blockquote {
   .leftContent {
     margin: auto;
     height: 60vh;
-    width: 90vw;
+    width: 100vw;
   }
 
   #modalContent {
